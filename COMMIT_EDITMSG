@@ -1,0 +1,42 @@
+fix: safer API-route syntax, npm as primary tooling, Windows 10 docs, .gitattributes
+
+- The 3 raw-HTTP routes (checkout, paddle-webhook, cron/retry-stuck-jobs)
+  previously imported createServerFileRoute from a subpath. If that export
+  doesn't exist in the installed TanStack Start version, importing it is a
+  hard module-resolution error that fails the ENTIRE build, not just these
+  routes — this is a plausible second contributor to the 'endless errors'
+  reported after the Vercel/Netlify attempts, on top of the Cloudflare
+  target. Rewritten using createFileRoute (proven correct — every other
+  route in this project already uses it successfully) with a
+  server.handlers option instead. If that option shape is also wrong for
+  the installed version, the failure mode is now isolated to these 3
+  endpoints (typecheck flags it, or the route just 404s) instead of blocking
+  the whole app.
+- npm is now the documented primary package manager (no code changes needed
+  for this — confirmed zero Bun-specific runtime APIs anywhere in the app;
+  Bun was only ever used as an install tool). bunfig.toml is left in place
+  for anyone who still wants to use Bun, but every instruction now leads
+  with npm, which needs no separate installer on Windows.
+- README rewritten end to end for a Windows 10 user who is not a programmer:
+  exact PowerShell steps for install/env/Supabase CLI/run/build/deploy,
+  plus a troubleshooting section. Added a 'start' script matching Nitro's
+  standard node-server output path, documented as unverified against a
+  real build.
+- .gitattributes: normalize line endings so Windows contributors don't get
+  spurious CRLF/LF diffs.
+- Diagnostic pass with noUnusedLocals/noUnusedParameters temporarily
+  enabled in the verification harness (not the project's own tsconfig) ->
+  zero findings anywhere, including generated UI primitives.
+- Searched the whole src/ tree for TODO/FIXME/placeholder/mock/dummy/fake
+  markers -> zero real matches (every hit was a legitimate Tailwind
+  placeholder: class or an i18n *Placeholder input-hint key).
+- Confirmed no duplicate implementations: exactly 4 createClient call
+  sites, each for a genuinely distinct purpose (persistent browser client,
+  persistent admin client, two request-scoped clients for user-token vs.
+  anonymous access) — not redundant. Mapped the .server.ts import graph:
+  acyclic, no circular dependencies.
+- Confirmed getLesson never calls AI — lessons are generated once during
+  processing and only ever read afterward, never regenerated on page view.
+
+Verified: real-tsc harness -> 0 errors. Import checker -> 0 broken imports
+(484 specifiers, 108 files).
