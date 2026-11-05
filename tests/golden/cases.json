@@ -1,0 +1,384 @@
+{
+ "version": 1,
+ "description": "Golden set for source verification: AR/EN cases (lectures, slides, problems).",
+ "cases": [
+  {
+   "id": "g01",
+   "lang": "ar",
+   "type": "lecture",
+   "source": "الخلية هي الوحدة الأساسية للحياة. تحتوي الخلية النباتية على جدار خلوي وبلاستيدات خضراء.",
+   "generated": "تحتوي الخلية النباتية على جدار خلوي وبلاستيدات خضراء.",
+   "label": "SUPPORTED",
+   "note": ""
+  },
+  {
+   "id": "g02",
+   "lang": "ar",
+   "type": "lecture",
+   "source": "يزداد معدل التفاعل الكيميائي بارتفاع درجة الحرارة. يعمل المحفز على زيادة سرعة التفاعل دون أن يُستهلك.",
+   "generated": "يعمل المحفز على زيادة سرعة التفاعل دون أن يُستهلك.",
+   "label": "SUPPORTED",
+   "note": ""
+  },
+  {
+   "id": "g03",
+   "lang": "ar",
+   "type": "slide",
+   "source": "قانون نيوتن الثاني: القوة تساوي الكتلة مضروبة في التسارع. وحدة القوة هي النيوتن.",
+   "generated": "القوة تساوي الكتلة مضروبة في التسارع.",
+   "label": "SUPPORTED",
+   "note": ""
+  },
+  {
+   "id": "g04",
+   "lang": "ar",
+   "type": "slide",
+   "source": "التضخم هو الارتفاع المستمر في المستوى العام للأسعار. يقاس التضخم بالرقم القياسي لأسعار المستهلك.",
+   "generated": "يقاس التضخم بالرقم القياسي لأسعار المستهلك.",
+   "label": "SUPPORTED",
+   "note": ""
+  },
+  {
+   "id": "g05",
+   "lang": "ar",
+   "type": "problem",
+   "source": "جسم كتلته 5 كجم يتحرك بتسارع 2 م/ث². القوة المحصلة تساوي 10 نيوتن.",
+   "generated": "القوة المحصلة على جسم كتلته 5 كجم وتسارعه 2 م/ث² تساوي 10 نيوتن.",
+   "label": "SUPPORTED",
+   "note": ""
+  },
+  {
+   "id": "g06",
+   "lang": "ar",
+   "type": "lecture",
+   "source": "لا يتغير الضغط عند ثبوت الحجم ودرجة الحرارة في نظام مغلق.",
+   "generated": "لا يتغير الضغط عند ثبوت الحجم ودرجة الحرارة في نظام مغلق.",
+   "label": "SUPPORTED",
+   "note": "negation preserved"
+  },
+  {
+   "id": "g07",
+   "lang": "ar",
+   "type": "lecture",
+   "source": "يغلي الماء عند 100 درجة مئوية تحت الضغط الجوي المعتاد.",
+   "generated": "يغلي الماء عند 100 درجة مئوية تحت الضغط الجوي المعتاد.",
+   "label": "SUPPORTED",
+   "note": ""
+  },
+  {
+   "id": "g08",
+   "lang": "ar",
+   "type": "slide",
+   "source": "الميتوكوندريا هي مصدر الطاقة في الخلية. تنتج الطاقة على شكل ATP.",
+   "generated": "الميتوكوندريا هي مصدر الطاقة في الخلية.",
+   "label": "SUPPORTED",
+   "note": ""
+  },
+  {
+   "id": "g09",
+   "lang": "ar",
+   "type": "problem",
+   "source": "إذا كان سعر السلعة 50 ريالاً وزاد بنسبة 10% فإن السعر الجديد 55 ريالاً.",
+   "generated": "زاد سعر السلعة بنسبة 10% ليصبح 55 ريالاً.",
+   "label": "SUPPORTED",
+   "note": ""
+  },
+  {
+   "id": "g10",
+   "lang": "ar",
+   "type": "lecture",
+   "source": "يتكون الجهاز التنفسي من الأنف والقصبة الهوائية والرئتين.",
+   "generated": "يتكون الجهاز التنفسي من الأنف والقصبة الهوائية والرئتين.",
+   "label": "SUPPORTED",
+   "note": ""
+  },
+  {
+   "id": "g11",
+   "lang": "en",
+   "type": "lecture",
+   "source": "Photosynthesis converts light energy into chemical energy. It takes place in the chloroplasts.",
+   "generated": "Photosynthesis takes place in the chloroplasts.",
+   "label": "SUPPORTED",
+   "note": ""
+  },
+  {
+   "id": "g12",
+   "lang": "en",
+   "type": "lecture",
+   "source": "The enzyme increases the reaction rate. It is not consumed in the reaction.",
+   "generated": "The enzyme is not consumed in the reaction.",
+   "label": "SUPPORTED",
+   "note": "negation preserved"
+  },
+  {
+   "id": "g13",
+   "lang": "en",
+   "type": "slide",
+   "source": "Supply and demand determine the market price. A higher price reduces demand.",
+   "generated": "A higher price reduces demand.",
+   "label": "SUPPORTED",
+   "note": ""
+  },
+  {
+   "id": "g14",
+   "lang": "en",
+   "type": "slide",
+   "source": "TCP is a connection-oriented protocol. UDP is connectionless.",
+   "generated": "UDP is connectionless.",
+   "label": "SUPPORTED",
+   "note": ""
+  },
+  {
+   "id": "g15",
+   "lang": "en",
+   "type": "problem",
+   "source": "A car travels 120 km in 2 h. Its average speed is 60 km/h.",
+   "generated": "The car's average speed is 60 km/h.",
+   "label": "SUPPORTED",
+   "note": ""
+  },
+  {
+   "id": "g16",
+   "lang": "en",
+   "type": "lecture",
+   "source": "Mitochondria produce ATP through cellular respiration.",
+   "generated": "Mitochondria produce ATP through cellular respiration.",
+   "label": "SUPPORTED",
+   "note": ""
+  },
+  {
+   "id": "g17",
+   "lang": "en",
+   "type": "problem",
+   "source": "The solution of x^2 - 4 = 0 is x = 2 or x = -2.",
+   "generated": "x^2 - 4 = 0 gives x = 2 or x = -2.",
+   "label": "SUPPORTED",
+   "note": ""
+  },
+  {
+   "id": "g18",
+   "lang": "en",
+   "type": "lecture",
+   "source": "Inflation is a sustained increase in the general price level.",
+   "generated": "Inflation is a sustained increase in the general price level.",
+   "label": "SUPPORTED",
+   "note": ""
+  },
+  {
+   "id": "g19",
+   "lang": "en",
+   "type": "slide",
+   "source": "The heart has four chambers: two atria and two ventricles.",
+   "generated": "The heart has four chambers: two atria and two ventricles.",
+   "label": "SUPPORTED",
+   "note": ""
+  },
+  {
+   "id": "g20",
+   "lang": "en",
+   "type": "lecture",
+   "source": "Water boils at 100 °C at standard atmospheric pressure.",
+   "generated": "Water boils at 100 °C at standard atmospheric pressure.",
+   "label": "SUPPORTED",
+   "note": ""
+  },
+  {
+   "id": "g21",
+   "lang": "ar",
+   "type": "lecture",
+   "source": "يتغير الضغط عند تغير الحجم في درجة حرارة ثابتة.",
+   "generated": "لا يتغير الضغط عند تغير الحجم في درجة حرارة ثابتة.",
+   "label": "NOT_SUPPORTED",
+   "note": "negation added"
+  },
+  {
+   "id": "g22",
+   "lang": "ar",
+   "type": "lecture",
+   "source": "لا يتغير الضغط عند ثبوت الحجم ودرجة الحرارة في نظام مغلق.",
+   "generated": "يتغير الضغط عند ثبوت الحجم ودرجة الحرارة في نظام مغلق.",
+   "label": "NOT_SUPPORTED",
+   "note": "negation removed"
+  },
+  {
+   "id": "g23",
+   "lang": "en",
+   "type": "lecture",
+   "source": "The enzyme increases the reaction rate.",
+   "generated": "The enzyme does not increase the reaction rate.",
+   "label": "NOT_SUPPORTED",
+   "note": "negation added"
+  },
+  {
+   "id": "g24",
+   "lang": "en",
+   "type": "lecture",
+   "source": "The catalyst is not consumed in the reaction.",
+   "generated": "The catalyst is consumed in the reaction.",
+   "label": "NOT_SUPPORTED",
+   "note": "negation removed"
+  },
+  {
+   "id": "g25",
+   "lang": "en",
+   "type": "slide",
+   "source": "UDP is connectionless.",
+   "generated": "UDP is not connectionless.",
+   "label": "NOT_SUPPORTED",
+   "note": "negation added"
+  },
+  {
+   "id": "g26",
+   "lang": "ar",
+   "type": "slide",
+   "source": "الميتوكوندريا ليست مصدر الطاقة في الخلية بل هي مخزن للماء.",
+   "generated": "الميتوكوندريا مصدر الطاقة في الخلية.",
+   "label": "NOT_SUPPORTED",
+   "note": "negation removed"
+  },
+  {
+   "id": "g27",
+   "lang": "en",
+   "type": "lecture",
+   "source": "A higher price reduces demand.",
+   "generated": "A higher price increases demand.",
+   "label": "NOT_SUPPORTED",
+   "note": "direction"
+  },
+  {
+   "id": "g28",
+   "lang": "ar",
+   "type": "lecture",
+   "source": "يرتفع معدل التفاعل بارتفاع درجة الحرارة.",
+   "generated": "ينخفض معدل التفاعل بارتفاع درجة الحرارة.",
+   "label": "NOT_SUPPORTED",
+   "note": "direction"
+  },
+  {
+   "id": "g29",
+   "lang": "en",
+   "type": "slide",
+   "source": "Inflation is an increase in the general price level.",
+   "generated": "Inflation is a decrease in the general price level.",
+   "label": "NOT_SUPPORTED",
+   "note": "direction"
+  },
+  {
+   "id": "g30",
+   "lang": "en",
+   "type": "problem",
+   "source": "A car travels 120 km in 2 h. Its average speed is 60 km/h.",
+   "generated": "The car's average speed is 80 km/h.",
+   "label": "NOT_SUPPORTED",
+   "note": "number"
+  },
+  {
+   "id": "g31",
+   "lang": "ar",
+   "type": "problem",
+   "source": "جسم كتلته 5 كجم يتحرك بتسارع 2 م/ث². القوة المحصلة تساوي 10 نيوتن.",
+   "generated": "القوة المحصلة تساوي 25 نيوتن.",
+   "label": "NOT_SUPPORTED",
+   "note": "number"
+  },
+  {
+   "id": "g32",
+   "lang": "ar",
+   "type": "lecture",
+   "source": "يغلي الماء عند 100 درجة مئوية تحت الضغط الجوي المعتاد.",
+   "generated": "يغلي الماء عند 90 درجة مئوية تحت الضغط الجوي المعتاد.",
+   "label": "NOT_SUPPORTED",
+   "note": "number"
+  },
+  {
+   "id": "g33",
+   "lang": "en",
+   "type": "problem",
+   "source": "The resistor has a value of 220 ohm.",
+   "generated": "The resistor has a value of 220 kg.",
+   "label": "NOT_SUPPORTED",
+   "note": "unit"
+  },
+  {
+   "id": "g34",
+   "lang": "en",
+   "type": "problem",
+   "source": "The tank holds 50 L of water.",
+   "generated": "The tank holds 50 % of water.",
+   "label": "NOT_SUPPORTED",
+   "note": "unit"
+  },
+  {
+   "id": "g35",
+   "lang": "ar",
+   "type": "lecture",
+   "source": "الخلية هي الوحدة الأساسية للحياة.",
+   "generated": "يعتمد انتقال الصوت في الفراغ على الموجات الكهرومغناطيسية الطويلة.",
+   "label": "NOT_SUPPORTED",
+   "note": "fabricated"
+  },
+  {
+   "id": "g36",
+   "lang": "en",
+   "type": "lecture",
+   "source": "Photosynthesis takes place in the chloroplasts.",
+   "generated": "Quantum entanglement enables faster-than-light signalling between distant galaxies.",
+   "label": "NOT_SUPPORTED",
+   "note": "fabricated"
+  },
+  {
+   "id": "g37",
+   "lang": "ar",
+   "type": "slide",
+   "source": "التضخم هو الارتفاع المستمر في الأسعار.",
+   "generated": "اكتشف العالم باستور لقاح شلل الأطفال سنة 1950 في مختبر بجنيف.",
+   "label": "NOT_SUPPORTED",
+   "note": "fabricated"
+  },
+  {
+   "id": "g38",
+   "lang": "en",
+   "type": "slide",
+   "source": "TCP is connection-oriented.",
+   "generated": "Blockchain consensus requires proof of stake validators across sharded rollups.",
+   "label": "NOT_SUPPORTED",
+   "note": "fabricated"
+  },
+  {
+   "id": "g39",
+   "lang": "ar",
+   "type": "problem",
+   "source": "السرعة تساوي المسافة مقسومة على الزمن.",
+   "generated": "الطاقة الحركية تساوي نصف الكتلة في مربع السرعة وتقاس بالجول وفق مبدأ حفظ الطاقة.",
+   "label": "NOT_SUPPORTED",
+   "note": "fabricated"
+  },
+  {
+   "id": "g40",
+   "lang": "en",
+   "type": "lecture",
+   "source": "The heart has four chambers.",
+   "generated": "The liver filters blood and produces bile in the gallbladder.",
+   "label": "NOT_SUPPORTED",
+   "note": "fabricated"
+  },
+  {
+   "id": "g41",
+   "lang": "ar",
+   "type": "lecture",
+   "source": "يتكون الجهاز التنفسي من الأنف والقصبة الهوائية والرئتين.",
+   "generated": "يتكون الجهاز الهضمي من المعدة والكبد والبنكرياس والأمعاء الدقيقة.",
+   "label": "NOT_SUPPORTED",
+   "note": "fabricated"
+  },
+  {
+   "id": "g42",
+   "lang": "en",
+   "type": "problem",
+   "source": "x^2 - 4 = 0 gives x = 2 or x = -2.",
+   "generated": "The integral of sin(x) over 0 to pi equals 2 under standard calculus rules.",
+   "label": "NOT_SUPPORTED",
+   "note": "fabricated"
+  }
+ ]
+}

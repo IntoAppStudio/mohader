@@ -1,0 +1,11 @@
+# Normalize line endings so Windows/macOS/Linux contributors don't produce
+# noisy whole-file diffs from CRLF vs LF alone.
+* text=auto eol=lf
+
+# Binary assets: never touch line endings.
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.ico binary
+*.woff binary
+*.woff2 binary
